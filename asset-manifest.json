@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/thatGood/static/css/main.5bd38dad.css",
+    "main.js": "/thatGood/static/js/main.fe233291.js",
+    "static/media/main_poster.png": "/thatGood/static/media/main_poster.f19176a541be00b945a1.png",
+    "static/media/playlist.png": "/thatGood/static/media/playlist.cb7961b96328f208000a.png",
+    "static/media/hyeong.jpg": "/thatGood/static/media/hyeong.0a7e6d8c8bf732144820.jpg",
+    "static/media/choi.jpg": "/thatGood/static/media/choi.bd048859bb5a6d183923.jpg",
+    "static/media/cho_drum.jpg": "/thatGood/static/media/cho_drum.b2620cf6b98b8ee71bc3.jpg",
+    "static/media/cho_bass.jpg": "/thatGood/static/media/cho_bass.f2f4c7ca4beb525c8b06.jpg",
+    "static/media/kim_vocal.jpg": "/thatGood/static/media/kim_vocal.27a42776d583ae60d833.jpg",
+    "static/media/chae.jpg": "/thatGood/static/media/chae.34ab2dfbbb2a2b531c22.jpg",
+    "static/media/kim_piano.jpg": "/thatGood/static/media/kim_piano.433045b34669873dfc08.jpg",
+    "static/media/lim.jpg": "/thatGood/static/media/lim.2f3b35ee588d5044568c.jpg",
+    "static/media/lee.jpg": "/thatGood/static/media/lee.038e5d7b6a3e6f8b0515.jpg",
+    "static/media/marker.png": "/thatGood/static/media/marker.2fa7d307d1792a2b4c8c.png",
+    "index.html": "/thatGood/index.html",
+    "static/media/icon_arrowDown.svg": "/thatGood/static/media/icon_arrowDown.50bb85a1b2b41768d3af.svg",
+    "main.5bd38dad.css.map": "/thatGood/static/css/main.5bd38dad.css.map",
+    "main.fe233291.js.map": "/thatGood/static/js/main.fe233291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd38dad.css",
+    "static/js/main.fe233291.js"
+  ]
+}
