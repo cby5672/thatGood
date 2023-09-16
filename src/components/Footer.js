@@ -7,7 +7,6 @@ const Information = () => {
         const userAgent = navigator.userAgent;
         const startDate = new Date(2023, 9, 21, 18, 0); // 2023년 10월 21일 오후 6시
         const endDate = new Date(startDate.getTime() + (60 * 60 * 3000)); // 일정 종료 시간 (1시간 뒤)
-        alert(userAgent);
 
         if (userAgent.match(/iPhone/i) || userAgent.match(/iPad/i)) {
             let calendarURL = 'calshow://';
@@ -21,20 +20,23 @@ const Information = () => {
             // Apple Calendar 열기
             window.open(calendarURL, '_system');
         } else if (userAgent.match(/Android/i)) {
-            const intent = window.plugins.webintent;
-            intent.startActivity({
-                action: intent.ACTION_EDIT,
-                type: 'vnd.android.cursor.item/event',
-                title: '공고사',
-                description: '공고사 2번째 이야기',
-                beginTime: startDate.getTime(),
-                endTime: endDate.getTime(),
-                eventLocation: '리엠아트센터'
-            },
-                function () { },
-                function () {
-                    console.log('Failed to open calendar');
-                });
+            // alert('android');
+            // const intent = window.plugins.webintent;
+            // intent.startActivity({
+            //     action: intent.ACTION_EDIT,
+            //     type: 'vnd.android.cursor.item/event',
+            //     title: '공고사',
+            //     description: '공고사 2번째 이야기',
+            //     beginTime: startDate.getTime(),
+            //     endTime: endDate.getTime(),
+            //     eventLocation: '리엠아트센터'
+            // },
+            //     function () { },
+            //     function () {
+            //         console.log('Failed to open calendar');
+            //     });
+            const intentUrl = 'content://com.android.calendar/time/' + Date.now();
+            window.location.href = intentUrl;
         } else {
             // 다른 플랫폼을 사용 중인 경우
             console.log("사용자의 플랫폼을 감지할 수 없습니다.");
