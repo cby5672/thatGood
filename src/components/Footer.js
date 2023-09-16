@@ -2,14 +2,12 @@ import React from 'react';
 // import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Information = () => {
-    // const copy = () => {
-    //     alert('청첩장 주소가 복사됐습니다');
-    // };
 
     const addSchedule = () => {
         const userAgent = navigator.userAgent;
         const startDate = new Date(2023, 9, 21, 18, 0); // 2023년 10월 21일 오후 6시
         const endDate = new Date(startDate.getTime() + (60 * 60 * 3000)); // 일정 종료 시간 (1시간 뒤)
+        alert(userAgent);
 
         if (userAgent.match(/iPhone/i) || userAgent.match(/iPad/i)) {
             let calendarURL = 'calshow://';
@@ -51,7 +49,7 @@ const Information = () => {
                 </button>
             </div>
             <div className="copyright">
-                Copyright 2022. <span>Sunkyungihwan</span>. All rights reserved.
+                { }
             </div>
         </div>
     );

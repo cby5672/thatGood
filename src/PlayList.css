@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 414px;
+    width: auto;
     height: fit-content;
     border: solid 7px rgb(64, 224, 163);
     background-color: white;
