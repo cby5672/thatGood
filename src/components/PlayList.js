@@ -9,7 +9,7 @@ const PlayList = () => {
     const SECTION2 = [{ title: 'Unholy', singer: '유다빈밴드' }, { title: '새벽별', singer: '터지드' }, { title: 'Monster', singer: '드렁큰타이거' }, { title: 'Break + Boogie On And On', singer: '빈지노' }, { title: '춘래불사춘', singer: '최예근' }, { title: '크게 라디오를 켜고', singer: 'YB' }, { title: '몽유병', singer: '로맨틱펀치' }, { title: '좋지 아니한가', singer: '유다빈밴드' }]
 
 
-    const animatedItem = useScrollFadeIn('up', 1, 0);
+    const animatedItem = [useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0)];
 
     const [section, secSection] = useState(1);
 
@@ -18,8 +18,8 @@ const PlayList = () => {
     }
 
     return (
-        <div {...animatedItem} className='content playList'><h2 className="title">공연 곡 리스트</h2>
-            <div className="box__outside">
+        <div className='content playList'><h2 {...animatedItem[0]} className="title">공연 곡 리스트</h2>
+            <div {...animatedItem[1]} className="box__outside">
                 <div className="container__status-bar margin">
                     <h1>{section}부 Playlist</h1>
                     <div className="empty"></div>

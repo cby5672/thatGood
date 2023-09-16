@@ -8,7 +8,7 @@ import lim from '../assets/member/lim.jpg'
 import instagramLogo from '../assets/logo/instagram.png'
 
 const Information = () => {
-    const animatedItem = [useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0)];
+    const animatedItem = [useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0)];
     return (
         <div className="content information">
             <h2 {...animatedItem[0]} className="title">
@@ -17,7 +17,7 @@ const Information = () => {
             {/* <div {...animatedItem[1]}>
                 <img src={photo} />
             </div> */}
-            <div {...animatedItem[2]} className="info">
+            <div {...animatedItem[1]} className="info">
                 <dl className="floor">
                     <dt><img src={choi} /></dt>
                     <dd>
