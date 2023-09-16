@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thatGood/static/css/main.3de8dfa6.css",
-    "main.js": "/thatGood/static/js/main.733f80dc.js",
+    "main.js": "/thatGood/static/js/main.5bfcf60f.js",
     "static/media/main_poster.png": "/thatGood/static/media/main_poster.f19176a541be00b945a1.png",
     "static/media/playlist.png": "/thatGood/static/media/playlist.cb7961b96328f208000a.png",
     "static/media/hyeong.jpg": "/thatGood/static/media/hyeong.0a7e6d8c8bf732144820.jpg",
@@ -17,10 +17,10 @@
     "index.html": "/thatGood/index.html",
     "static/media/icon_arrowDown.svg": "/thatGood/static/media/icon_arrowDown.50bb85a1b2b41768d3af.svg",
     "main.3de8dfa6.css.map": "/thatGood/static/css/main.3de8dfa6.css.map",
-    "main.733f80dc.js.map": "/thatGood/static/js/main.733f80dc.js.map"
+    "main.5bfcf60f.js.map": "/thatGood/static/js/main.5bfcf60f.js.map"
   },
   "entrypoints": [
     "static/css/main.3de8dfa6.css",
-    "static/js/main.733f80dc.js"
+    "static/js/main.5bfcf60f.js"
   ]
 }
