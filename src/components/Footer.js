@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Information = () => {
+    const [test, setTest] = useState('');
 
     const addSchedule = () => {
         const userAgent = navigator.userAgent;
@@ -9,6 +10,7 @@ const Information = () => {
         const endDate = new Date(startDate.getTime() + (60 * 60 * 3000)); // 일정 종료 시간 (1시간 뒤)
 
         if (userAgent.match(/iPhone/i) || userAgent.match(/iPad/i)) {
+            setTest('iphone');
             let calendarURL = 'calshow://';
 
             // 일정 정보 추가
@@ -37,10 +39,11 @@ const Information = () => {
             //     });
             const intentUrl = 'content://com.android.calendar/time/' + Date.now();
             window.location.href = intentUrl;
-            alert(intentUrl);
+            setTest('android');
         } else {
             // 다른 플랫폼을 사용 중인 경우
             console.log("사용자의 플랫폼을 감지할 수 없습니다.");
+            setTest('fail');
         }
     }
 
@@ -52,7 +55,7 @@ const Information = () => {
                 </button>
             </div>
             <div className="copyright">
-                { }
+                {test}
             </div>
         </div>
     );
