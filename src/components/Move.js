@@ -1,9 +1,11 @@
 import React from 'react';
 import useScrollFadeIn from '..//hooks/useScrollFadeIn';
-import bride from '../assets/img/bride.png';
-import groom from '../assets/img/groom.png';
-import married from '../assets/img/married.png';
-import open from '../assets/img/open.png';
+import encore from '../assets/img/encore.png';
+import camera from '../assets/img/camera.png';
+import peaple from '../assets/img/people.png';
+import one from '../assets/img/one.png';
+import two from '../assets/img/two.png';
+import freeTime from '../assets/img/free_time.png'
 
 const Information = () => {
     const animatedItem = useScrollFadeIn('up', 1, 0);
@@ -14,21 +16,21 @@ const Information = () => {
                 <div className="boxWrap">
                     <div className="box start"></div>
                     <div className="box">
-                        <img src={married}></img>
+                        <img src={peaple}></img>
                         <div>
-                            보조대기실<span>(2층)</span>
+                            입장 완료
                         </div>
                     </div>
                     <div className="box">
-                        <img src={bride}></img>
+                        <img src={one}></img>
                         <div>
-                            신부대기실<span>(5층)</span>
+                            1부 시작
                         </div>
                     </div>
                     <div className="box">
-                        <img className="open" src={open}></img>
+                        <img className="open" src={freeTime}></img>
                         <div>
-                            연회장<span>(4층)</span>
+                            쉬는 시간
                         </div>
                     </div>
                     <div className="box last"></div>
@@ -37,54 +39,54 @@ const Information = () => {
                     <div className="box start"></div>
                     <div className="box">
                         <div className="top">
-                            <div className="time">12:00</div>
+                            <div className="time">~18:00</div>
                         </div>
                         <div className="bottom"></div>
                     </div>
                     <div className="box">
-                        <div className="time">12:30</div>
-                        <img src={groom}></img>
+                        <div className="time">18:00</div>
+                        {/* <img src={groom}></img>
                         <div>
                             로비<span>(3층)</span>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="box">
-                        <div className="time">13:00</div>
+                        <div className="time">19:00</div>
                     </div>
                     <div className="box last"></div>
                 </div>
                 <div className="boxWrap">
                     <div className="box start"></div>
                     <div className="box">
-                        <div className="time">14:40</div>
-                        <img src={married}></img>
+                        <div className="time">20:30</div>
+                        <img src={camera}></img>
                         <div>
-                            2부 시작<span>(1층)</span>
+                            사진 촬영
                         </div>
                     </div>
                     <div className="box">
-                        <div className="time">14:00</div>
-                        <img className="open" src={open}></img>
+                        <div className="time">20:10</div>
+                        <img className="open" src={encore}></img>
                         <div>
-                            연회장<span>(1층)</span>
+                            앵콜~???
                         </div>
                     </div>
                     <div className="box">
-                        <div className="time">13:30</div>
-                        <img src={married}></img>
+                        <div className="time">19:10</div>
+                        <img src={two}></img>
                         <div>
-                            예식 시작<span>(5층)</span>
+                            2부 시작
                         </div>
                     </div>
                     <div className="box last"></div>
                 </div>
                 <div className="ref" align="left" vertical-align="middle">
                     <div className="route">
-                        <div>5층에서 1시까지 신랑, 신부는 사진 촬영 예정입니다</div>
+                        <div>공연 시작 전에 착석 부탁드립니다.</div>
                     </div>
-                    <div className="route">
+                    {/* <div className="route">
                         <div>식사 먼저 하시는 분들은 4층을 이용해주세요</div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

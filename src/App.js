@@ -26,13 +26,13 @@ function App() {
             <Home />
             <Family />
             <Information />
-            {/* <Move /> */}
+            <Move />
             <PlayList />
             <Gallery />
             {/* <Account /> */}
             {/* <Bus /> */}
             <Place />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
