@@ -37,6 +37,7 @@ const Information = () => {
             //     });
             const intentUrl = 'content://com.android.calendar/time/' + Date.now();
             window.location.href = intentUrl;
+            alert(intentUrl);
         } else {
             // 다른 플랫폼을 사용 중인 경우
             console.log("사용자의 플랫폼을 감지할 수 없습니다.");
