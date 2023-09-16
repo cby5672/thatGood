@@ -5,8 +5,8 @@ import useScrollFadeIn from '..//hooks/useScrollFadeIn';
 
 
 const PlayList = () => {
-    const SECTION1 = [{ title: 'Zeitgeist', singer: 'The Koxx' }, { title: 'Alive', singer: '터지드' }, { title: 'Villain(빌런)', singer: '스텔라장' }, { title: '호수', singer: '와인루프' }, { title: '찬란', singer: '나상현씨밴드' }, { title: 'Cheek To Cheek', singer: '미노이' }, { title: '우리의 밤', singer: '유다빈밴드(Feat.유승우)' }]
-    const SECTION2 = [{ title: 'Unholy', singer: '유다빈밴드' }, { title: '새벽별', singer: '터지드' }, { title: 'Monster', singer: '드렁큰타이거' }, { title: 'Break + Boogie On And On', singer: '빈지노' }, { title: '춘래불사춘', singer: '최예근' }, { title: '크게 라디오를 켜고', singer: 'YB' }, { title: '몽유병', singer: '로맨틱펀치' }, { title: '좋지 아니한가', singer: '유다빈밴드' }]
+    const SECTION1 = [{ title: 'Zeitgeist', singer: 'The Koxx' }, { title: 'Alive', singer: '터치드' }, { title: 'Villain(빌런)', singer: '스텔라장' }, { title: '호수', singer: '와인루프' }, { title: '찬란', singer: '나상현씨밴드' }, { title: 'Cheek To Cheek', singer: '미노이' }, { title: '우리의 밤', singer: '유다빈밴드(Feat.유승우)' }]
+    const SECTION2 = [{ title: 'Unholy', singer: '유다빈밴드' }, { title: '새벽별', singer: '터치드' }, { title: 'Monster', singer: '드렁큰타이거' }, { title: 'Break + Boogie On And On', singer: '빈지노' }, { title: '춘래불사춘', singer: '최예근' }, { title: '크게 라디오를 켜고', singer: 'YB' }, { title: '몽유병', singer: '로맨틱펀치' }, { title: '좋지 아니한가', singer: '유다빈밴드' }]
 
 
     const animatedItem = [useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0)];
