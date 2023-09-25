@@ -26,7 +26,7 @@ body {
     align-items: center;
     width: auto;
     height: fit-content;
-    border: solid 7px #99ccff;
+    border: solid 4px;
     background-color: white;
     border-radius: 40px;
 }
@@ -68,7 +68,7 @@ body {
     align-items: center;
 
     border-radius: 10%;
-    border: solid 3px black;
+    border: solid 3px lightgray;
     background-image: url(../src/assets/img/playlist.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,32 +172,71 @@ body {
 .box__color {
     width: 60px;
     height: 60px;
-    border: solid 3px black;
+    border: solid 3px lightgray;
     border-radius: 20px;
+    background-size: cover;
 }
 
-.container__music-box:nth-child(1) .box__color {
-    background-color: #f95425;
+.container__music-box .box__color.zei {
+    background-image: url('./assets/song/zei.jpg');
 }
 
-.container__music-box:nth-child(2) .box__color {
-    background-color: rgb(120, 69, 155);
+.container__music-box .box__color.alive {
+    background-image: url('./assets/song/alive.jpg');
 }
 
-.container__music-box:nth-child(3) .box__color {
-    background: linear-gradient(20deg,
-            red,
-            orange,
-            yellow,
-            rgb(110, 233, 40),
-            lightskyblue,
-            rgb(30, 101, 255),
-            rgb(156, 35, 243));
+.container__music-box .box__color.villain {
+    background-image: url('./assets/song/villain.jpg');
 }
 
-.container__music-box:nth-child(4) .box__color {
-    background-color: #faec22;
+.container__music-box .box__color.wine {
+    background-image: url('./assets/song/wine.jpg');
 }
+
+.container__music-box .box__color.brilliance {
+    background-image: url('./assets/song/brilliance.jpg');
+}
+
+.container__music-box .box__color.cheek {
+    background-image: url('./assets/song/cheek.jpg');
+}
+
+.container__music-box .box__color.ourNight {
+    background-image: url('./assets/song/ourNight.jpg');
+}
+
+.container__music-box .box__color.unholy {
+    background-image: url('./assets/song/unholy.JPG');
+}
+
+.container__music-box .box__color.star {
+    background-image: url('./assets/song/star.jpg');
+}
+
+.container__music-box .box__color.monster {
+    background-image: url('./assets/song/monster.jpg');
+}
+
+.container__music-box .box__color.boogie {
+    background-image: url('./assets/song/boogie.jpg');
+}
+
+.container__music-box .box__color.spring {
+    background-image: url('./assets/song/spring.jpg');
+}
+
+.container__music-box .box__color.yb {
+    background-image: url('./assets/song/yb.jpg');
+}
+
+.container__music-box .box__color.romantic {
+    background-image: url('./assets/song/romantic.jpg');
+}
+
+.container__music-box .box__color.good {
+    background-image: url('./assets/song/good.jpg');
+}
+
 
 .container__music-box {
     height: 60px;

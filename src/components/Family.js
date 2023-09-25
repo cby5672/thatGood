@@ -18,11 +18,7 @@ const Family = () => {
                     </div>
                     <div>
                         <div {...animatedItem[1]}>
-                            <iframe width="100%" height="315"
-                                src="https://www.youtube.com/embed/RR9acPSJGxs?version=3&vq=hd1080"
-                                title="YouTube video player" frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/nBTfGvBliNE?si=G0ozEqo-o1E1vhgd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div {...animatedItem[2]} className="love">
                             <a href="https://www.youtube.com/channel/UCtjraGBbxmEao9kWmcopVFg/featured">
@@ -31,26 +27,6 @@ const Family = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div {...animatedItem[3]} className="intro">
-                    <div>
-                        <span className="parent">
-                            이동관
-                            <span className="dot">·</span>
-                            김태선
-                        </span>
-                        <span className="relation">의 차남</span>
-                        <span className="name">기환</span>
-                    </div>
-                    <div>
-                        <span className="parent">
-                            최용찬
-                            <span className="dot">·</span>
-                            김점숙
-                        </span>
-                        <span className="relation">의 차녀</span>
-                        <span className="name">선경</span>
-                    </div>
-                </div> */}
             </div>
         </div>
     );

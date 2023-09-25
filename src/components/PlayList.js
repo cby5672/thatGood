@@ -5,8 +5,8 @@ import useScrollFadeIn from '..//hooks/useScrollFadeIn';
 
 
 const PlayList = () => {
-    const SECTION1 = [{ title: 'Zeitgeist', singer: 'The Koxx' }, { title: 'Alive', singer: '터치드' }, { title: 'Villain(빌런)', singer: '스텔라장' }, { title: '호수', singer: '와인루프' }, { title: '찬란', singer: '나상현씨밴드' }, { title: 'Cheek To Cheek', singer: '미노이' }, { title: '우리의 밤', singer: '유다빈밴드(Feat.유승우)' }]
-    const SECTION2 = [{ title: 'Unholy', singer: '유다빈밴드' }, { title: '새벽별', singer: '터치드' }, { title: 'Monster', singer: '드렁큰타이거' }, { title: 'Break + Boogie On And On', singer: '빈지노' }, { title: '춘래불사춘', singer: '최예근' }, { title: '크게 라디오를 켜고', singer: 'YB' }, { title: '몽유병', singer: '로맨틱펀치' }, { title: '좋지 아니한가', singer: '유다빈밴드' }]
+    const SECTION1 = [{ title: 'Zeitgeist', singer: 'The Koxx', song: 'zei' }, { title: 'Alive', singer: '터치드', song: 'alive' }, { title: 'Villain(빌런)', singer: '스텔라장', song: 'villain' }, { title: '호수', singer: '와인루프', song: 'wine' }, { title: '찬란', singer: '나상현씨밴드', song: 'brilliance' }, { title: 'Cheek To Cheek', singer: '미노이', song: 'cheek' }, { title: '우리의 밤', singer: '유다빈밴드(Feat.유승우)', song: 'ourNight' }]
+    const SECTION2 = [{ title: 'Unholy', singer: '유다빈밴드', song: 'unholy' }, { title: '새벽별', singer: '터치드', song: 'star' }, { title: 'Monster', singer: '드렁큰타이거', song: 'monster' }, { title: 'Break + Boogie On And On', singer: '빈지노', song: 'boogie' }, { title: '춘래불사춘', singer: '최예근', song: 'spring' }, { title: '크게 라디오를 켜고', singer: 'YB', song: 'yb' }, { title: '몽유병', singer: '로맨틱펀치', song: 'romantic' }, { title: '좋지 아니한가', singer: '유다빈밴드', song: 'good' }]
 
 
     const animatedItem = [useScrollFadeIn('up', 1, 0), useScrollFadeIn('up', 1, 0)];
@@ -45,10 +45,10 @@ const PlayList = () => {
                     </div>
                 </div>
                 <div className="container__list margin">
-                    {(section === 1 ? SECTION1 : SECTION2).map((music) => {
+                    {(section === 1 ? SECTION1 : SECTION2).map((music, idx) => {
                         console.log()
-                        return (<div className="container__music-box">
-                            <div className="box__color"></div>
+                        return (<div className="container__music-box" key={idx}>
+                            <div className={`box__color ${music.song}`}></div>
                             <div className="container__detail">
                                 <h2>{music.title}</h2>
                                 <span>{music.singer}</span>

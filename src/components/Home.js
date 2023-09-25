@@ -1,6 +1,6 @@
 import React from 'react';
 import poster from '../assets/img/main_poster.png'
-import heart from '../assets/img/heart.png';
+import balloons from '../assets/img/balloons.png';
 import { motion, useAnimationControls } from 'framer-motion';
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
                     </div>
                     <div className="icon">
                         <motion.div initial="hidden" animate="visible" variants={variants} className="small">
-                            <img src={heart} />
+                            <img src={balloons} style={{ width: '50px' }} />
                         </motion.div>
                     </div>
                     <div className="tag">

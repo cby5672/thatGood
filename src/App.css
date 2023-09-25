@@ -73,7 +73,7 @@ a {
 
 /* information */
 .container .information {margin: 10% 6%;}
-.information img{width: 100%;}
+.information img{width: 45px;}
 .information .info{width: 90%; margin:auto; font-weight: bold;}
 .information dl{margin: 2%; padding:2%; font-size: 1rem; display: flex;}
 .information dl dt{width: 20%;}
