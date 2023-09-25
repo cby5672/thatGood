@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thatGood/static/css/main.fbbc4f7d.css",
-    "main.js": "/thatGood/static/js/main.d664c9dc.js",
+    "main.css": "/thatGood/static/css/main.77c9e786.css",
+    "main.js": "/thatGood/static/js/main.4a0ea280.js",
     "static/media/5.jpg": "/thatGood/static/media/5.62eeef736a3b16ff8602.jpg",
     "static/media/13.jpg": "/thatGood/static/media/13.453716bfb767d801448a.jpg",
     "static/media/10.jpg": "/thatGood/static/media/10.1ecafa806f2e961ea98f.jpg",
@@ -46,14 +46,15 @@
     "static/media/marker.png": "/thatGood/static/media/marker.2fa7d307d1792a2b4c8c.png",
     "static/media/wine.jpg": "/thatGood/static/media/wine.18bf373fbabfcef63d3d.jpg",
     "static/media/romantic.jpg": "/thatGood/static/media/romantic.c8cc879925683710bc38.jpg",
+    "static/media/rock.jpg": "/thatGood/static/media/rock.3317e8831cabd5d636a7.jpg",
     "static/media/star.jpg": "/thatGood/static/media/star.a9908d03dcaecc65cc08.jpg",
     "index.html": "/thatGood/index.html",
     "static/media/icon_arrowDown.svg": "/thatGood/static/media/icon_arrowDown.50bb85a1b2b41768d3af.svg",
-    "main.fbbc4f7d.css.map": "/thatGood/static/css/main.fbbc4f7d.css.map",
-    "main.d664c9dc.js.map": "/thatGood/static/js/main.d664c9dc.js.map"
+    "main.77c9e786.css.map": "/thatGood/static/css/main.77c9e786.css.map",
+    "main.4a0ea280.js.map": "/thatGood/static/js/main.4a0ea280.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbbc4f7d.css",
-    "static/js/main.d664c9dc.js"
+    "static/css/main.77c9e786.css",
+    "static/js/main.4a0ea280.js"
   ]
 }
