@@ -225,6 +225,10 @@ body {
     background-image: url('./assets/song/spring.jpg');
 }
 
+.container__music-box .box__color.rock {
+    background-image: url('./assets/song/rock.jpg');
+}
+
 .container__music-box .box__color.yb {
     background-image: url('./assets/song/yb.jpg');
 }
