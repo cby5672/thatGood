@@ -5,10 +5,7 @@ import Move from './components/Move';
 import PlayList from './components/PlayList';
 import Gallery from './components/Gallery';
 import Place from './components/Place';
-import Bus from './components/Bus';
 import Family from './components/Family';
-import Account from './components/Account';
-import Footer from './components/Footer';
 
 import './App.css';
 import './Button.scss'
@@ -29,10 +26,7 @@ function App() {
             <Move />
             <PlayList />
             <Gallery />
-            {/* <Account /> */}
-            {/* <Bus /> */}
             <Place />
-            {/* <Footer /> */}
         </div>
     );
 }
